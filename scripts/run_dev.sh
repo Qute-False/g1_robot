@@ -11,7 +11,7 @@ DOCKER_ARGS=(
   --ipc host
   --privileged
   --gpus all
-  --user $(id -u):$(id -g) \
+#  --user $(id -u):$(id -g) \
   -e NVIDIA_VISIBLE_DEVICES=all
   -e NVIDIA_DRIVER_CAPABILITIES=all
   -v "$(pwd):/workspace"
