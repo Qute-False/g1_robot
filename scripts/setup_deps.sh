@@ -19,11 +19,11 @@ else
 fi
 
 # 固定版本（建议锁 commit，避免以后炸）
-cd unitree_ros2
-git checkout main
+#cd unitree_ros2
+#git checkout main
 # 👉 推荐你换成具体 commit，例如：
 # git checkout xxxxxxx
-cd ..
+#cd ..
 
 # ===== unitree_sdk2 =====
 if [ ! -d "unitree_sdk2" ]; then
@@ -33,8 +33,8 @@ else
     echo "[INFO] unitree_sdk2 already exists"
 fi
 
-cd unitree_sdk2
-git checkout main
-cd ..
+#cd unitree_sdk2
+#git checkout main
+#cd ..
 
 echo "===== Dependencies setup complete ====="
