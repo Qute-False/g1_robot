@@ -2,7 +2,7 @@
 set -e
 
 CONTAINER_NAME="g1-dev-$USER"
-IMAGE_NAME="unitree_ros2"
+IMAGE_NAME="g1-robot-dev:humble-gpu-v1"
 
 DOCKER_ARGS=(
   -itd
