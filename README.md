@@ -8,3 +8,13 @@ G1 机器人项目代码仓库。
 - `docker/`: Docker 环境
 - `scripts/`: 常用脚本
 - `docs/`: 开发规范与实机流程
+
+## 环境初始化
+
+```bash
+cd ~/g1_robot
+bash scripts/setup_deps.sh
+编译
+cd ~/g1_robot
+colcon build --symlink-install
+source install/setup.bash
